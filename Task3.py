@@ -39,6 +39,6 @@ def assess_password_strength(password):
     return score, strength
 
 # Example usage
-password = "Janardhan@2005"
+password = "Janardhan@9988"
 score, strength = assess_password_strength(password)
 print(f"Password: {password}\nScore: {score}\nStrength: {strength}")
